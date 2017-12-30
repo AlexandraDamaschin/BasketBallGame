@@ -8,13 +8,14 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    int team_a_score=0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        displayForTeamA (8);
+        setContentView(R.layout.activity_main);
+        displayForTeamA (team_a_score);
     }
-
-    int team_a_score=0;
 
     public void displayForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
