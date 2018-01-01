@@ -23,17 +23,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void increment3Points (View view){
-        team_a_score= team_a_score+3;
+        team_a_score += 3;
         displayForTeamA(team_a_score);
     }
 
     public void increment2Points (View view){
-        team_a_score= team_a_score+2;
+        team_a_score += 2;
         displayForTeamA(team_a_score);
     }
 
     public void increment1Point (View view){
-        team_a_score= team_a_score+1;
+        team_a_score += 1;
         displayForTeamA(team_a_score);
     }
 }
