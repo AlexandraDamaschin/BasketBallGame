@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
+    <!--team A display-->
     <LinearLayout
         android:layout_weight="1"
         android:layout_width="0dp"
@@ -30,23 +31,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:onClick="increment3Points"
+            android:onClick="increment3PointsA"
             android:text="+3 Points" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:onClick="increment2Points"
+            android:onClick="increment2PointsA"
             android:text="+2 Points" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:onClick="increment1Point"
+            android:onClick="increment1PointA"
             android:text="Free throw" />
     </LinearLayout>
+
+    <!--team B display-->
 
     <LinearLayout
         android:layout_weight="1"
@@ -73,21 +76,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:onClick="increment3Points"
+            android:onClick="increment3PointsB"
             android:text="+3 Points" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:onClick="increment2Points"
+            android:onClick="increment2PointsB"
             android:text="+2 Points" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:onClick="increment1Point"
+            android:onClick="increment1PointB"
             android:text="Free throw" />
     </LinearLayout>
 
