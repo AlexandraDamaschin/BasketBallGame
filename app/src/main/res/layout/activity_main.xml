@@ -52,6 +52,10 @@
                 android:text="Free throw" />
         </LinearLayout>
 
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
         <!--team B display-->
 
         <LinearLayout
@@ -107,5 +111,6 @@
         android:layout_margin="8dp"
         android:onClick="resetScore"
         android:text="Reset" />
+
 
 </RelativeLayout>
