@@ -102,10 +102,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:onClick="Reset"
+        android:layout_margin="8dp"
+        android:onClick="resetScore"
         android:text="Reset" />
 
 </RelativeLayout>

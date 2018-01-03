@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     //    team B score
     public void displayForTeamB(int score) {
-        TextView scoreViewB =findViewById(R.id.team_b_score);
+        TextView scoreViewB = findViewById(R.id.team_b_score);
         scoreViewB.setText(String.valueOf(score));
     }
 
@@ -58,6 +58,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void increment1PointB(View view) {
         team_b_score += 1;
+        displayForTeamB(team_b_score);
+    }
+
+    public void resetScore(View view) {
+        team_a_score = 0;
+        team_b_score = 0;
+        displayForTeamA(team_a_score);
         displayForTeamB(team_b_score);
     }
 }
