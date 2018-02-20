@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BasketBallGame</string>
+    <string name="teamA_name">Team A</string>
+    <string name="teamB_name">Team B</string>
+    <string name="score_text">0</string>
+    <string name="increase_by_3">+3 Points</string>
+
 </resources>
