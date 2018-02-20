@@ -6,6 +6,7 @@
     <dimen name="score_size">56sp</dimen>
     <dimen name="button_margin">24dp</dimen>
     <dimen name="button_padding">8dp</dimen>
-    <dimen name=""></dimen>
-
+    <dimen name="line_width">2dp</dimen>
+    <dimen name="line_height">300dp</dimen>
+    <dimen name="reset_margin">8dp</dimen>
 </resources>
