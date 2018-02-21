@@ -7,15 +7,15 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    int team_a_score = 0;
-    int team_b_score = 0;
+    int scoreTeamA = 0;
+    int scoreTeamB = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        displayForTeamA(team_a_score);
-        displayForTeamB(team_b_score);
+        displayForTeamA(scoreTeamA);
+        displayForTeamB(scoreTeamB);
     }
 
     //team A score
@@ -26,20 +26,20 @@ public class MainActivity extends AppCompatActivity {
 
     //increment score with 3 points
     public void increment3PointsA(View view) {
-        team_a_score += 3;
-        displayForTeamA(team_a_score);
+        scoreTeamA += 3;
+        displayForTeamA(scoreTeamA);
     }
 
     //increment score with 2 points
     public void increment2PointsA(View view) {
-        team_a_score += 2;
-        displayForTeamA(team_a_score);
+        scoreTeamA += 2;
+        displayForTeamA(scoreTeamA);
     }
 
     //increment score with one point
     public void increment1PointA(View view) {
-        team_a_score += 1;
-        displayForTeamA(team_a_score);
+        scoreTeamA += 1;
+        displayForTeamA(scoreTeamA);
     }
 
     //    team B score
@@ -50,27 +50,27 @@ public class MainActivity extends AppCompatActivity {
 
     //increment score with 3 points
     public void increment3PointsB(View view) {
-        team_b_score += 3;
-        displayForTeamB(team_b_score);
+        scoreTeamB += 3;
+        displayForTeamB(scoreTeamB);
     }
 
     //increment score with 2 points
     public void increment2PointsB(View view) {
-        team_b_score += 2;
-        displayForTeamB(team_b_score);
+        scoreTeamB += 2;
+        displayForTeamB(scoreTeamB);
     }
 
     //increment score with 1 point
     public void increment1PointB(View view) {
-        team_b_score += 1;
-        displayForTeamB(team_b_score);
+        scoreTeamB += 1;
+        displayForTeamB(scoreTeamB);
     }
 
     //reset score for both teams
     public void resetScore(View view) {
-        team_a_score = 0;
-        team_b_score = 0;
-        displayForTeamA(team_a_score);
-        displayForTeamB(team_b_score);
+        scoreTeamA = 0;
+        scoreTeamB = 0;
+        displayForTeamA(scoreTeamA);
+        displayForTeamB(scoreTeamB);
     }
 }
