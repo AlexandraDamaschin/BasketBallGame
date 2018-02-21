@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!--scroll View-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--layout for entire app-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <!--layout for team A-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -79,7 +82,7 @@
                 android:layout_height="@dimen/line_height"
                 android:background="@android:color/darker_gray" />
 
-            <!--team B display-->
+            <!--team B layout-->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -140,13 +143,14 @@
 
         </LinearLayout>
 
-        <!--reset button for score-->
+        <!--layout for reset button-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/reset_layout_margin"
             android:gravity="center">
 
+            <!--reset button for score-->
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -156,4 +160,5 @@
         </LinearLayout>
 
     </LinearLayout>
+
 </ScrollView>
