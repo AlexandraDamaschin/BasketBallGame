@@ -7,8 +7,8 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    int scoreTeamA = 0;
-    int scoreTeamB = 0;
+    int scoreTeamA;
+    int scoreTeamB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
