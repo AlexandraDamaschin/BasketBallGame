@@ -2,7 +2,6 @@ package com.example.android.basketballgame;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Button;
 import android.widget.TextView;
 import android.view.View;
 
@@ -25,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         scoreViewA.setText(String.valueOf(score));
     }
 
-    //incremenet score with 3 points
+    //increment score with 3 points
     public void increment3PointsA(View view) {
         team_a_score += 3;
         displayForTeamA(team_a_score);
